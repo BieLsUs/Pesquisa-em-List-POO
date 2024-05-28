@@ -77,16 +77,17 @@ public class SomaNumeros {
 	 public static void main(String[] args) {
 		SomaNumeros somaNumero = new SomaNumeros();
 		
-		
+		// Atribuindo números na lista
 		somaNumero.adicionarNumero(5);
 		somaNumero.adicionarNumero(-3);
 		somaNumero.adicionarNumero(-10);
 		somaNumero.adicionarNumero(7);
 		somaNumero.adicionarNumero(80);
-		
+
+		// Exibendo lista
 		System.out.println("Números adicionados!");
 		somaNumero.exibirNumeros();
-		
+
 		System.out.println("Soma dos números adicionados: " + somaNumero.calcularSoma());
 		System.out.println("Este é o maior número: " + somaNumero.encontrarMaiorNumero());
 		System.out.println("Este é o menor número: " + somaNumero.encontrarMenorNumero());
